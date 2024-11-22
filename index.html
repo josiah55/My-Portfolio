@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--The header section with the profile name-->
+    <section class="my-container">
+    <header>  
+        <h1>Josiah</h1>
+    
+        <!--The navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="/Html/index.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!--The hero section-->
+    <section id="hero">
+        <h3>Website Developer</h3>
+        <p>Hi, I am <mydiv>Kadiri Josiah</mydiv><br>From Nigeria</p>
+    </section>
+
+    <!--The about section-->
+    <section id="about">
+        <img src="/Images/Jojo.jpg" alt="Josh">
+        
+        <div class="container">
+        <h2>About Me</h2>
+        <p>I am a passionate and dedicated website developer with a keen eye for details. I have a strong foundation in HTML, CSS, Javascript and Bootstrap. I enjoy bringing ideas to life in the browser as i take pride in writing clean, efficient code and keeping up with the latest trends and technologies in web development. When I am not coding, you can find me exploring new tech tools, swiming, listening to musics or reading up on the latest trend. Feel free to check out my projects below, and do not hesitate to reach out if you’d like to collaborate or just say hello! </p>
+        
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab('Skills')">Skills</button>
+            <button class="tablinks" onclick="openTab('Experience')">Experience</button>
+            <button class="tablinks" onclick="openTab('Education')">Education</button>
+        </div>
+
+        <div id="Skills" class="tabcontent">
+            <h3>Skills</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, Responsive Design</p>
+        </div>
+
+        <div id="Experience" class="tabcontent">
+            <h3>Experience</h3>
+            <p>Freelance Web Developer (2020 - Current)</p>
+            <p>Web Developer Internship (2019)</p>
+        </div>
+
+        <div id="Education" class="tabcontent">
+            <h3>Education</h3>
+            <p>Website development training at Webdeves Academy</p>
+        </div>
+        </div>
+    </section>
+
+    <!--The services section-->
+    <section>
+        <div id="services">
+            <h2>My Services</h2>
+        <div class="service-box1">
+            <i class="fa fa-code fa-3x"></i>
+            <h3>Web Development</h3>
+            <p>I specialize in creating high-quality, user friendly and responsive websites using HTML, CSS, JavaScript and Bootstrap.</p>
+            <p>I am passionate about developing intuitive and accessible web experiences</p>
+        </div>
+
+        <div class="service-box2">
+            <h3>Graphic Design</h3>
+            <p>I can help you create visually appealing and engaging designs for your projects.</p>
+        </div>
+    </div>
+        <section>
+
+         <!--Projects section--> 
+         <section id="projects">
+            <h3>My Projects</h3>
+            <p>Check out some of my projects by clicking on the link below:</p>
+            <a href="https://github.com/josiah55" target="_blank">View Projects</a>
+         </section> 
+         
+         <!--Contact section-->
+         <section id="contact">
+            <h3>Contact Me</h3>
+            <div class="mycontainer">
+                <div class="div">
+                    <div class="fa-icon">
+            <a href="mailto:kadiri1001josiah@gmail.com" i class="fa fa-envelope"></i>kadiri1001josiah@gmail.com</a><br><br><br>
+            <a href="tel:+2348063446502" i class="fa fa-phone"></i>+234 806 344 6502</a>
+        </div>
+            <br><br>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <a href="https://www.linkedin.com/in/kadiri-josiah-003aa61a3"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <br><br>
+            <div id="my-forms">
+            <form action="" method="post" class="contact-left">
+                <input type="text" name="name" placeholder="Enter Your Full Name" class="contact-inputs"><br><br>
+                <input type="email" name="email" placeholder="Type In Your Email Address" class="contact-inputs"><br><br>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+            </div>
+    </section>
+    <br><br><br>
+
+    <footer>
+       Copyrights &copy; 2024 Kadiri Josiah. All rights reserved
+    </footer>
+    </section>
+</body>
+</html>
